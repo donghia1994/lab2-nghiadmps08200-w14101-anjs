@@ -1,0 +1,175 @@
+<div class="container">
+    
+    <div class="nav-tab mt-5">
+            <ul class="nav nav-pills">
+                    
+                      
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Add Item</button>
+                      
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#menu1">Edit</a>
+                      
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#menu2">Items</a>
+                    </li>
+                    
+
+                  </ul>
+    </div>           
+                  <!-- Tab panes -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">   
+                            <div class="tab-content mt-5">
+                                
+                                  <form action="">
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="input">Name</label>
+                                        <input type="text" class="form-control" id="#" placeholder="Name">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <label for="input">Price</label>
+                                          <input type="text" class="form-control" id="#" placeholder="Price">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <label for="input">Quanity</label>
+                                          <input type="number" class="form-control" id="#" placeholder="Quanity" min="0">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <label for="inputCity">Category</label>
+                                          <select id="inputState" class="form-control">
+                                                  <option selected>Choose...</option>
+                                                  <option>...</option>
+                                          </select>
+                                      </div>
+                                      <label for="exampleFormControlFile1">Image Item</label>
+                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                      <label for="exampleFormControlTextarea1">Desrciption</label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mt-3">Thêm</button>
+
+                                  </form>
+                              
+                            </div>          
+                          </div>
+                        </div>
+                      </div>
+                  </div>                
+                                <div class="tab-content mt-5">
+                                  <div class="tab-pane container active" id="home">
+                                    
+                    </div>
+
+          
+
+<!--  -->
+    
+            <div class="tab-pane container active" id="menu1">                  
+                            <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Name</label>
+                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                          <label for="inputEmail4">Price</label>
+                                          <input type="text" class="form-control" id="price" placeholder="price">
+                                        </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="inputPassword4">Quanity</label>
+                                      <input type="number" class="form-control" id="quanity" placeholder="Quanity" min='1'>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                          <label for="inputCity">Category</label>
+                                          <select id="inputState" class="form-control">
+                                                  <option selected>Choose...</option>
+                                                  <option>...</option>
+                                          </select>
+                                    </div>
+                                        <label for="exampleFormControlFile1">Image Item</label>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+                                        <label for="exampleFormControlTextarea1">Desrciption</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                <button type="submit" class="btn btn-primary mt-3">Sửa</button>
+                    </div>
+         
+                    
+
+
+<!--  -->
+                    <div class="tab-pane container fade" id="menu2">
+                            <table class="table table-striped table-dark">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Quanity</th>
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Desrciption</th>
+                                        <th scope="col">Custom</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>ab</td>
+                                        <td>img</td>
+                                        <td>des</td>
+                                        <td><div class="btn-group" role="group">
+                                            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Hành Động
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                              <a class="dropdown-item" href="#">Edit</a>
+                                              <a class="dropdown-item" href="#">Del</a>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                      </tr>
+                                      <tr>
+                                          <th scope="row">3</th>
+                                          <td>Larry</td>
+                                          <td>the Bird</td>
+                                          <td>@twitter</td>
+                                      </tr>
+                                      <tr>
+                                          <th scope="row">3</th>
+                                          <td>Larry</td>
+                                          <td>the Bird</td>
+                                          <td>@twitter</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+                    </div>
+                    <!--  -->
+                    
+
+                  
+    
+        
+    
+</div>
